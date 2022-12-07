@@ -24,7 +24,7 @@ Also, to perfrom robot calibration, end effector poses are collected with differ
 
 The schematic for the robot joints and links needed for VJM analysis were as follows:
 
-<p align="center"><img src="Results/VJM/VJM_Schematic.png" width="70%"></p>
+<p align="center"><img src="Results/VJM/VJM_Schematic.png" width="100%"></p>
 
 The deflections on the end effector with a force of 50N in the three translation axes were:
 hk,h, j
@@ -45,6 +45,7 @@ Comparison between the three methods used is represented in table below:
 | ----------------------- |:--------|:-----------|:--------|
 | No. iterations​          |  6263   |785         |6255    |
 | Total time (s) *         | 13.8    |2.13        |14.66    |
+
 *Termination condition at 2% accuracy.
 
 A sample result for the inverse kinematics solution using Task Augmentation is shown below.
